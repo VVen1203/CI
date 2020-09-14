@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: prod
+  application:
+    name: teacher
+  cloud:
+    config:
+      uri: http://localhost:3301
+      label: master
+      profile: prod
+      discovery:
+        enabled: true
+        service-id: config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+---
+spring:
+  profiles: dev
+  application:
+    name: teacher
+  cloud:
+    config:
+      uri: http://127.0.0.1:3301
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: config-server
