@@ -58,8 +58,6 @@
         </plugins>
     </build>
     
-    <profile>
-    <id>docker</id>
     <build>
         <plugins>
             <plugin>
@@ -98,6 +96,5 @@
             </plugin>
         </plugins>
     </build>
-</profile>
 
 </project>
