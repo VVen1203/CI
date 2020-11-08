@@ -73,8 +73,11 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <from>
-                        <image>openjdk:8u102-jre</image>
-        
+                        <image>openjdk:8-jre-alpine</image>
+                        <auth>
+                            <username>shenmuedocker</username>
+                            <password>shuyumeng2</password>
+                        </auth>
                     </from>
                     <to>
                         <image>registry.cn-hangzhou.aliyuncs.com/44temp/etrgfhng</image>
