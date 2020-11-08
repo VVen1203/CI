@@ -74,7 +74,10 @@
         
                     </from>
                     <to>
-                        <image>registry.cn-beijing.aliyuncs.com/tuboxuxu/tuboxuxu/${project.artifactId}:${project.version}</image>
+                        <image>registry.cn-beijing.aliyuncs.com/tuboxuxu/tuboxuxu/demo</image>
+                        <tags>
+                            <tag>0.01</tag>
+                        </tags>
                     </to>
                     <container>
                         <jvmFlags>
