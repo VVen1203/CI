@@ -54,6 +54,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.example.student.StudentApplication</mainClass>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
@@ -88,7 +91,7 @@
                             <jvmFlag>-Xms256m</jvmFlag>
                             <jvmFlag>-Xmx512M</jvmFlag>
                         </jvmFlags>
-                        <mainClass>${main-class}</mainClass>
+                        <mainClass>com.example.student.StudentApplication</mainClass>
                         <ports>
                             <port>8081</port>
                         </ports>
