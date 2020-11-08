@@ -73,7 +73,7 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <from>
-                        <image>openjdk:8-jre-alpine</image>
+                        <image>openjdk@sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4</image>
                         <auth>
                             <username>shenmuedocker</username>
                             <password>shuyumeng2</password>
