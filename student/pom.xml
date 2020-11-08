@@ -73,14 +73,14 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <from>
-                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu/jdk8</image>
+                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu:jdk8</image>
                         <auth>
                             <username>bosangel@sina.com</username>
                             <password>shuyumeng2</password>
                         </auth>
                     </from>
                     <to>
-                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu/xuboxuxu</image>
+                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu:tuboxuxu</image>
                         <auth>
                             <username>bosangel@sina.com</username>
                             <password>shuyumeng2</password>
