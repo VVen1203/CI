@@ -57,5 +57,47 @@
             </plugin>
         </plugins>
     </build>
+    
+    <profile>
+    <id>docker</id>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>2.5.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <allowInsecureRegistries>true</allowInsecureRegistries>
+                    <from>
+                        <image>openjdk:8</image>
+        
+                    </from>
+                    <to>
+                        <image>registry.cn-beijing.aliyuncs.com/tuboxuxu/tuboxuxu/${project.artifactId}:${project.version}</image>
+                    </to>
+                    <container>
+                        <jvmFlags>
+                            <jvmFlag>-Xms256m</jvmFlag>
+                            <jvmFlag>-Xmx512M</jvmFlag>
+                        </jvmFlags>
+                        <mainClass>${main-class}</mainClass>
+                        <ports>
+                            <port>8081</port>
+                        </ports>
+                        <creationTime>USE_CURRENT_TIMESTAMP</creationTime>
+                    </container>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</profile>
 
 </project>
