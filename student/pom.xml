@@ -73,17 +73,17 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <from>
-                        <image>openjdk:8-jre-alpine</image>
+                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu/jdk8</image>
                         <auth>
-                            <username>shenmuedocker</username>
+                            <username>bosangel@sina.com</username>
                             <password>shuyumeng2</password>
                         </auth>
                     </from>
                     <to>
-                        <image>registry.cn-hangzhou.aliyuncs.com/44temp/etrgfhng</image>
+                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu/xuboxuxu</image>
                         <auth>
                             <username>bosangel@sina.com</username>
-                            <password>12345678a</password>
+                            <password>shuyumeng2</password>
                         </auth>
                         <tags>
                             <tag>0.01</tag>
