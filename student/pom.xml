@@ -73,17 +73,17 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <from>
-                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu:jdk8</image>
+                        <image>registry.cn-beijing.aliyuncs.com/tuboxuxu/mycentos:1.0</image>
                         <auth>
-                            <username>bosangel@sina.com</username>
-                            <password>shuyumeng2</password>
+                            <username>vven温</username>
+                            <password>mypassword1203</password>
                         </auth>
                     </from>
                     <to>
-                        <image>registry-vpc.cn-beijing.aliyuncs.com/44temp/tuboxuxu:tuboxuxu</image>
+                        <image>registry.cn-beijing.aliyuncs.com/tuboxuxu/mycentos:1.1</image>
                         <auth>
-                            <username>bosangel@sina.com</username>
-                            <password>shuyumeng2</password>
+                            <username>vven温</username>
+                            <password>mypassword1203</password>
                         </auth>
                         <tags>
                             <tag>0.01</tag>
